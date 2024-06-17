@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Block</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .quote-block {
+            background-color: #1a1a1a;
+            color: #c0c0c0;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .quote {
+            font-size: 1.2em;
+            font-style: italic;
+            color: #3ccfcf;
+        }
+
+        .author {
+            margin-top: 10px;
+            font-size: 1em;
+            color: #ff007f;
+        }
+    </style>
+</head>
+<body>
+    <div class="quote-block">
+        <p class="quote">"Human beings are not accustomed to being perfect, and few areas of human activity demand it. Adjusting to the requirement for perfection is, I think, the most difficult part of learning to program."</p>
+        <p class="author">- Fred Brooks</p>
+    </div>
+</body>
+</html>
